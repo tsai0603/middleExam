@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>個人網頁排版</title>
+    <link rel="stylesheet" href="webstyle.css">
+  </head>
+  <body>
+    <header id="home">
+      <h1>MyWebsite 個人網站</h1>
+    </header>
+
+    <article>
+      <div>
+        <section class="card">
+          <h2 id="about me">Who am I?</h2>
+          <img src="IMG_4236.png" width="280" height="400" />
+          <p>
+            我是蔡宜臻，來自板橋，今年19歲，就讀中原大學資管系二年級<br>
+            熱愛彈吉他、打籃球、做甜點，並致力於不斷學習與成長。
+          </p>
+        </section>
+      </div>
+
+      <div>
+        <section class="card">
+          <h2 id="skills">skills</h2>
+          
+            <!-- HTML 技能 -->
+          <div class="skill">
+          <span>HTML</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 85%;"></div>
+              </div>
+          </div>
+
+            <!-- CSS 技能 -->
+          <div class="skill">
+          <span>Python</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+                </div>
+          </div>
+
+            <!-- JavaScript 技能 -->
+          <div class="skill">
+            <span>Java</span>
+              <div class="progress-bar">
+                  <div class="progress" style="width: 60%;"></div>
+                  </div>
+            </div>
+            <div class="pie-chart-container">
+              <div class="title">word</div>
+              <div class="pie-chart" style="--percent: 85%; --color: #526D82;">
+                  <div class="percentage">85%</div>
+                
+              </div>
+              <div class="title">excel</div>
+              <div class="pie-chart" style="--percent: 70%; --color: #F76B6A;">
+                  <div class="percentage">70%</div>
+                  
+              </div>
+              <div class="title">PPT</div>
+              <div class="pie-chart" style="--percent: 75%; --color: #F9C74F;">
+                  <div class="percentage">75%</div>
+                  
+              </div>
+          </div>
+          
+        </section>
+      </div>
+      <div class="photo">
+        <section class="card">
+          <h2 id="experience">experience</h2>
+          <img src="S__51838984.jpg" width="520" height="370" />
+          <p>
+           參加2024全國大專院校資訊相關系所資訊相關系所聯合盃賽榮獲第三名
+          </p>
+          <img src='新生盃.jpg' width="520" height="370">
+          <p>
+            參加校內新生盃女子籃球比賽榮獲第四名
+          </p>
+          <img src='打工.jpg' width="350" height="370">
+          <p>在馬辣集團累積一年工讀經驗</p>
+        </section>
+      </div>
+      <div>
+        <section class="card">
+          <h2 id="contact">contact</h2>
+          <div class="contact-info">
+            <div class="info-item">
+                <img src="igg.jpg" width="100" height="100">
+              <a href="https://www.instagram.com/_u_r_a_foo1/profilecard/?igsh=MXEwaWVmdnpnNDU5dQ==">_u_r_a_foo1</a>
+            </div>
+            <div class="info-item">
+                <img src="line.jpg" width="100" height="100">
+                <a href="https://line.me/ti/p/2r5D_f8vlv">line me</a>
+            </div>
+            <div class="info-item">
+                <img src="phone.jpg" width="100" height="100">
+               <a href="tel:+886963908555">call me</a>
+            </div>
+            <div class="info-item">
+                <img src="gmail.jpg" width="100" height="100">
+                <p><a href="mailto:a0963908555@gmail.com">Email me</a></p>
+            </div>
+            
+      </div>
+        
+          <div class="form-group"><input type="text" class="form-control" placeholder="Name"></div>
+          <div class="form-group"><input type="text" class="form-control" placeholder="Email"></div>
+          <div class="form-group"><input type="text" class="form-control" placeholder="subject"></div>
+          <div class="form-group"><textarea name="" id=message cols="30" rows="7" class="form-control" placeholder="Message"></textarea></div>
+          <div class="form-group"><input type="submit" class="btn btn-primary btn-send-message" value="Send Message"></div>
+        </section>
+      </div>
+    </article>
+
+    <aside>
+      <div >
+        <img src="IMG_1850.png" class=photo   width="340" height="250" />
+        <h2>Tsai Yi Chen</h2>
+      </div>
+
+      <nav>
+        <a href="#about me">about me</a>
+        <a href="#skills">skills</a>
+        <a href="#experience">experience</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <footer>
+        <h5>Copyrgiht @ 2024 All rights reserved</h5> 
+      </footer>
+    </aside>
+
+   
+  </body>
+</html>
